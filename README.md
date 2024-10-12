@@ -19,7 +19,17 @@ Um exemplo de hello world em Scheme:
 ```
 simples, não ?
 
-Nessa linguagem, as expressões utilizam notação pré-fixa, em que o operador aparece antes dos operandos. Este tipo de notação tem uma grande vantagem que é a qualidade expressiva. Existem regras únicas a serem utilizada em qualquer expressão, evitando possíveis ambiguidades.
+Nessa linguagem, as expressões utilizam notação pré-fixa, em que o operador aparece antes dos operandos. Este tipo de notação tem uma grande vantagem que é a qualidade expressiva. Existem regras únicas a serem utilizada em qualquer expressão, evitando possíveis ambiguidades. 
+
+Comentários em Scheme são delimitados por `;` e tudo que estiver nessas linhas será ignorado pelo compilador.
+
+Exemplo:
+```~~~scheme
+;Imprimindo múltiplos valores
+(display "The result is: ")
+(display (+ 3 4))
+```
+Saída:`The result is: 7`
 
 ### 03. Funções
 
