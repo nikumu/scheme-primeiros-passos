@@ -1,15 +1,23 @@
 # A linguagem Scheme
 
-</a><img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Lambda_lc.svg" min-width="380px" max-width="200px" width="175px" align="right">   
-             
-### 01. Introdução
+
+</a><img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Lambda_lc.svg" min-width="380px" max-width="200px" width="175px" align="right">  
+
+**Conteúdo**
+
+- [Introdução](#introdução)
+- [Aspectos Gerais](#aspectos-gerais)
+- [Funções](#funções)
+- [Listas](#listas)
+     
+### Introdução
            
 Como o paradigma funcional é algo que está em alta atualmente, resolvi escrever esse artigo ilustrando a eficiência de uma linguagem funcional, apresentando as principais características e claro, alguns exemplos de códigos. Primeiramente, é bom efatizar que Existem dois padrões que definem a linguagem Scheme: o padrão oficial IEEE e um outro, mais popular chamado “Revisedn Report on the Algorithmic Language Scheme”, abreviado como RnRS, que atualmente se encontra na versão 6. Para os exemplos mostrados aqui, usarei a IDE DrScheme, que pode ter obtido em: <https://download.racket-lang.org/>
 
 Scheme é uma linguagem funcional, desenvolvida na década de 1970 por Gerald Jay Sussman e Guy L. Steele, projetada para ser uma versão simples de Lisp. Scheme é mais simples por conter um pequeno grupo de regras e ter a possibilidade de fazer composições dessas regras. A ausência de restrições, torna Scheme numa liguagem muito poderosa e flexível. Logo, não precisa incorporar novas funções para contornar inconvenientes causados pela existência de alguma restrição na linguagem. Com o tempo, Scheme também se tornou uma escolha popular em ambientes acadêmicos, especialmente no ensino de ciência da computação.
 
 
-### 02. Aspectos Gerais
+### Aspectos Gerais
 
 A primeira impressão que temos, é que Scheme funciona como uma calculadora, onde escrevemos uma expressão e o interpretador nos mostra o resultado. Isso, porque a linguagem oferece um dispositivo chamado “REPL” (Read-Eval-Print Loop). O REPL é um programa simples e interativo que lê expressões ou trechos de programa, avalia (ou executa) e imprime o resultado. Na prática, a experiência de usar o REPL é semelhante a de interagir com um terminal. Sempre que você digitar um comando, o REPL vai imprimir o valor de retorno do comando.
 
@@ -31,7 +39,7 @@ Exemplo:
 ```
 Saída:`The result is: 7`
 
-### 03. Funções
+### Funções
 
 Para calcular o valor de uma função, escrevemos:
 ```~~~scheme
@@ -53,7 +61,7 @@ Tudo que escrevemos em Scheme é chamado de expressão, que podem ser classifica
 
 Os números são dados simples, que representam e devolvem o próprio valor. Por exemplo, o número `10`, quando integrado a uma expressão, devolve o valor `10`.
 
-### 04. Listas
+### Listas
 
 Uma lista, por sua vez, é uma sequência de expressões entre parênteses. Quando o interpretador recebe uma lista, tenta interpretá-la como a aplicação de um procedimento. Para definir um procedimento, usamos o operador define e podemos aplicá-lo aos argumentos para ver seu funcionamento. Por exemplo, usando a sintaxe básica a seguir:
 ```~~~scheme
