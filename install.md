@@ -1,5 +1,7 @@
 # Como instalar scheme ou mit-scheme no Ubuntu?
 
+`sudo apt update`
+
 `sudo apt install mit-scheme`
 
 e consegui instalá-lo. Portanto, esta versão instalada do Ubuntu conhece o mit-scheme, enquanto a outra não.
