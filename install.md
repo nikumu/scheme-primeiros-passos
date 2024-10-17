@@ -1,4 +1,4 @@
-# Como instalar scheme ou mit-scheme no Ubuntu?
+# Como instalar scheme ou mit-scheme no Ubuntu
 
 `sudo apt update`
 
@@ -8,7 +8,7 @@ Esta versão instalada do Ubuntu conhece o mit-scheme, enquanto a outra não.
 
 `aptscheme`
 
-# Como instalar DrScheme 5.0.2?
+# Como instalar DrScheme 5.0.2
 
 Você pode tentar instalar a versão diretamente do Racket Team PPA
 
