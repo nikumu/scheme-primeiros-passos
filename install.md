@@ -8,7 +8,7 @@ e consegui instalá-lo. Portanto, esta versão instalada do Ubuntu conhece o mit
 
 `aptscheme`
 
-# How do you install DrScheme 5.0.2?
+# Como instalar DrScheme 5.0.2?
 
 Você pode tentar instalar a versão diretamente do Racket Team PPA
 
