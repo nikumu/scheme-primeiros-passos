@@ -4,7 +4,7 @@
 
 `sudo apt install mit-scheme`
 
-e consegui instalá-lo. Portanto, esta versão instalada do Ubuntu conhece o mit-scheme, enquanto a outra não.
+Esta versão instalada do Ubuntu conhece o mit-scheme, enquanto a outra não.
 
 `aptscheme`
 
